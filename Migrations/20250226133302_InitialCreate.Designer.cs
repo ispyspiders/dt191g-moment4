@@ -10,7 +10,7 @@ using PlaylistApp.Data;
 namespace dt191g_moment4.Migrations
 {
     [DbContext(typeof(PlaylistContext))]
-    [Migration("20250226115635_InitialCreate")]
+    [Migration("20250226133302_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
