@@ -35,6 +35,7 @@ namespace PlaylistApp.Controllers
                 Artist = song.Artist,
                 Title = song.Title,
                 Length = song.Length,
+                CategoryId = song.CategoryId,
                 Category = new CategoryDto
                 {
                     Id = song.Category.Id,
@@ -63,6 +64,7 @@ namespace PlaylistApp.Controllers
                 Artist = song.Artist,
                 Title = song.Title,
                 Length = song.Length,
+                CategoryId = song.CategoryId,
                 Category = new CategoryDto
                 {
                     Id = song.Category.Id,
